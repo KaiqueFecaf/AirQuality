@@ -1,8 +1,0 @@
-	CO(Monóxido de Carbono)
-  MP10 (Partículas Inaláveis)
-  MP2.5 (Partículas Inaláveis Finas)
-  NO (Monóxido de Nitrogênio)
-  NO2 (Dióxido de Nitrogênio)
-  NOx (Óxidos de Nitrogênio)
-  TEMP (Temperatura do Ar)
-  UR (Umidade Relativa do Ar) 
