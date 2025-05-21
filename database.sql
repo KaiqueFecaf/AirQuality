@@ -50,3 +50,16 @@ INSERT INTO municipios (nomeMunicipios) VALUES ('Campinas');
 INSERT INTO municipios (nomeMunicipios) VALUES ('Campo Grande');
 INSERT INTO municipios (nomeMunicipios) VALUES ('Idaiatuba');
 INSERT INTO municipios (nomeMunicipios) VALUES ('Santos');
+
+-- Qualidade do Ar
+INSERT INTO qualidade_do_ar (municipio_id, poluente_id, valor, data, hora) VALUES
+  (1, 1, 5.20, '2025-05-11', '08:00:00'),
+  (2, 2, 18.30, '2025-05-11', '09:00:00'),
+  (3, 3, 12.75, '2025-05-11', '10:00:00'),
+  (4, 4, 7.10, '2025-05-11', '11:00:00'),
+  (5, 5, 24.60, '2025-05-11', '12:00:00'),
+  (1, 6, 19.80, '2025-05-12', '08:00:00'),
+  (2, 7, 22.50, '2025-05-12', '09:00:00'),
+  (3, 8, 47.00, '2025-05-12', '10:00:00'),
+  (4, 1, 3.50, '2025-05-12', '11:00:00'),
+  (5, 2, 14.90, '2025-05-12', '12:00:00');
