@@ -43,3 +43,10 @@ INSERT INTO poluentes (nomePoluentes) VALUES ('NO2 (Dióxido de Nitrogênio)');
 INSERT INTO poluentes (nomePoluentes) VALUES ('NOx (Óxidos de Nitrogênio)');
 INSERT INTO poluentes (nomePoluentes) VALUES ('TEMP (Temperatura do Ar)');
 INSERT INTO poluentes (nomePoluentes) VALUES ('UR (Umidade Relativa do Ar)');
+
+-- Municipios 
+INSERT INTO municipios (nomeMunicipios) VALUES ('Osasco');
+INSERT INTO municipios (nomeMunicipios) VALUES ('Campinas');
+INSERT INTO municipios (nomeMunicipios) VALUES ('Campo Grande');
+INSERT INTO municipios (nomeMunicipios) VALUES ('Idaiatuba');
+INSERT INTO municipios (nomeMunicipios) VALUES ('Santos');
