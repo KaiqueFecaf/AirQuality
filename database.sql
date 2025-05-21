@@ -33,3 +33,13 @@ CREATE TABLE qualidade_do_ar (
 -- Índice para melhorar a desempenho de buscas por município, poluente, data e hora
 CREATE INDEX idx_municipio_data ON qualidade_do_ar (municipio_id, data, hora);
 CREATE INDEX idx_poluente_data ON qualidade_do_ar (poluente_id, data, hora);
+
+-- Poluentes
+INSERT INTO poluentes (nomePoluentes) VALUES ('CO (Monóxido de Carbono)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('MP10 (Partículas Inaláveis)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('MP2.5 (Partículas Inaláveis Finas)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('NO (Monóxido de Nitrogênio)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('NO2 (Dióxido de Nitrogênio)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('NOx (Óxidos de Nitrogênio)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('TEMP (Temperatura do Ar)');
+INSERT INTO poluentes (nomePoluentes) VALUES ('UR (Umidade Relativa do Ar)');
